@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Social Media Registration</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        fieldset {
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+
+        label {
+            font-size: 18px;
+        }
+
+        input,
+        select,
+        textarea {
+            padding: 8px;
+            margin: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Social Media Registration Form</h1>
+
+    <form>
+
+        <fieldset>
+
+            <legend>
+                <h2>Personal Details</h2>
+            </legend>
+
+            <label>First Name:</label>
+            <input type="text" name="firstname">
+            <br><br>
+
+            <label>Surname:</label>
+            <input type="text" name="surname">
+            <br><br>
+
+            <label>Mobile Number:</label>
+            <input type="tel" name="mobile" placeholder="Enter your number">
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email">
+            <br><br>
+
+            <label>Password:</label>
+            <input type="password" name="password">
+            <br><br>
+
+            <label>Confirm Password:</label>
+            <input type="password" name="confirm">
+            <br><br>
+
+            <label>Date of Birth:</label>
+            <input type="date" name="dob">
+            <br><br>
+
+            <label>Gender:</label>
+
+            <input type="radio" name="gender" value="Male"> Male
+
+            <input type="radio" name="gender" value="Female"> Female
+
+            <input type="radio" name="gender" value="Other"> Other
+
+            <br><br>
+
+            <label>Select Country:</label>
+
+            <select name="country">
+                <option>--Select Country--</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+                <option>Canada</option>
+            </select>
+
+            <br><br>
+
+            <label>Upload Profile Picture:</label>
+            <input type="file" name="profile">
+            <br><br>
+
+        </fieldset>
+
+
+        <fieldset>
+
+            <legend>
+                <h2>Account Details</h2>
+            </legend>
+
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="Choose username">
+            <br><br>
+
+            <label>Profile Name:</label>
+            <input type="text" name="profilename">
+            <br><br>
+
+            <label>Account Type:</label>
+
+            <input type="radio" name="account" value="Public"> Public
+
+            <input type="radio" name="account" value="Private"> Private
+
+            <br><br>
+
+            <label>About Me:</label>
+            <br>
+
+            <textarea rows="5" cols="40" placeholder="Write something about yourself"></textarea>
+
+            <br><br>
+
+            <label>Choose Your Interests:</label>
+            <br>
+
+            <input type="checkbox" name="interest" value="Sports"> Sports
+
+            <input type="checkbox" name="interest" value="Music"> Music
+
+            <input type="checkbox" name="interest" value="Technology"> Technology
+
+            <input type="checkbox" name="interest" value="Movies"> Movies
+
+            <br><br>
+
+            <label>Website:</label>
+            <input type="url" name="website" placeholder="Enter website URL">
+
+            <br><br>
+
+        </fieldset>
+
+
+        <fieldset>
+
+            <legend>
+                <h2>Terms and Conditions</h2>
+            </legend>
+
+            <input type="checkbox" name="terms">
+            I agree to the Terms and Conditions.
+
+            <br><br>
+
+            <input type="checkbox" name="privacy">
+            I agree to the Privacy Policy.
+
+            <br><br>
+
+        </fieldset>
+
+        <center>
+
+            <button type="submit">Register</button>
+
+            <button type="reset">Reset</button>
+
+        </center>
+
+    </form>
+
+</body>
+
+</html>
